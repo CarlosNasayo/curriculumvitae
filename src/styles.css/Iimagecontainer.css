@@ -1,0 +1,23 @@
+.photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.containerr{
+    height: 500px;
+    background-image: url('../assets//images/back.jpg');
+    display: grid;
+    place-content: center;
+    background-size: cover;
+    opacity: 2;
+    transform: translate3d(0px, 0px, 0px);
+}
+h2{
+    color:white;
+    font-weight: bold;
+    
+}
+h5{
+    font-weight: 700;
+    color: white;
+}

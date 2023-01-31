@@ -1,0 +1,48 @@
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import '../styles.css/header.css'
+import Offcanvas from 'react-bootstrap/Offcanvas';
+
+
+const Header=()=>{
+    return(
+            <>
+               {['lg'].map((expand) => (
+        <Navbar key={expand} bg="light" expand={expand} className="hola">
+          <Container fluid>
+            <Navbar.Brand href="#">Curriculum Vitae</Navbar.Brand>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-${expand}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              placement="end"
+            >
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                 
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                <Nav className="justify-content-end flex-grow-1 pe-3">
+                  <Nav.Link href="#{About}">About</Nav.Link>
+                  <Nav.Link href="#action2">Courses</Nav.Link>
+                  <Nav.Link href="#action2">Skills</Nav.Link>
+                  <Nav.Link href="#action2">Experience</Nav.Link>
+                </Nav>
+               
+              </Offcanvas.Body>
+            </Navbar.Offcanvas>
+          </Container>
+        </Navbar>
+      ))}
+            </>
+          );
+        }
+
+    
+
+export default Header;
