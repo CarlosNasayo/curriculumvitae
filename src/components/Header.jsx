@@ -9,6 +9,18 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 
 const Header=()=>{
+    
+    const scrollToID= 'about'
+    const scrollCourses= 'courses'
+
+    const handleClickNav =()=>{
+        document.getElementById(scrollToID).scrollIntoView({behavior:
+        "smooth"})
+    }
+    const handleClickNavCurses =()=>{
+        document.getElementById(scrollCourses).scrollIntoView({behavior:
+        "smooth"})
+    }
     return(
             <>
                {['lg'].map((expand) => (
@@ -28,8 +40,8 @@ const Header=()=>{
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link href="#{About}">About</Nav.Link>
-                  <Nav.Link href="#action2">Courses</Nav.Link>
+                  <Nav.Link onClick={handleClickNav}>About</Nav.Link>
+                  <Nav.Link onClick={handleClickNavCurses}>Courses</Nav.Link>
                   <Nav.Link href="#action2">Skills</Nav.Link>
                   <Nav.Link href="#action2">Experience</Nav.Link>
                 </Nav>

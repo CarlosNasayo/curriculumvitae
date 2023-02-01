@@ -1,11 +1,11 @@
 .photo{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
 }
 .containerr{
     height: 500px;
-    background-image: url('../assets//images/back.jpg');
+    background-image: url('../assets//images/back3.jpg');
     display: grid;
     place-content: center;
     background-size: cover;

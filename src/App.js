@@ -4,6 +4,7 @@ import Navbar from './components/Header';
 import Imagecontainer from './components/Imagecontainer';
 import About from './components/About';
 import Skills from './components/Skills';
+import Courses from './components/Courses';
 function App() {
   return (
     
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Imagecontainer/>
       <About/>
+      <Courses/>
       <Skills/>
       
     </div>

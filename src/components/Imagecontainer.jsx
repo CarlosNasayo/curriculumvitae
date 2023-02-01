@@ -4,7 +4,7 @@ const Imagecontainer=()=>{
     return(
         <>
          
-        <div className='containerr'>
+        <div className='containerr' id='imagees'>
             
             <img className='photo' src={require('../assets/images/profile.jpeg')} alt="" />
             <h2>Carlos Nasayó</h2>
