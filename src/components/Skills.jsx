@@ -60,7 +60,7 @@ const Skills=()=> {
                   </div>
                 </div>
                 <div className="col-md-6">
-                  <div className="progress-container progress-primary"><span className="progress-badge">Microsoft Office</span>
+                  <div className="progress-container progress-primary"><span className="progress-badge">Requirements Analysis</span>
                     <div className="progress">
                       <div className="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
                         data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"

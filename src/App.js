@@ -5,8 +5,9 @@ import Imagecontainer from './components/Imagecontainer';
 import About from './components/About';
 import Skills from './components/Skills';
 import Courses from './components/Courses';
-
 import Experience from './components/Experience';
+
+import Education from './components/Education';
 function App() {
   return (
     
@@ -17,6 +18,7 @@ function App() {
       <Courses/>
       <Skills/>
       <Experience/>
+      <Education/>
 
       
     </div>
