@@ -8,7 +8,7 @@ const About=()=>{
               <div className="col-lg-6 col-md-12">
                 <div className="card-body">
                   <div className="h4 mt-0 title">About</div>
-                  <p>¡hellow! I'm web developer </p>
+                  <p>¡hello! I'm web developer </p>
                   <p>System engineer, with an emphasis on software development, databases and machine learning, I have skills to work both in a team and individually, I am characterized by being self-taught and constantly learning.
                   </p>
                   <p>

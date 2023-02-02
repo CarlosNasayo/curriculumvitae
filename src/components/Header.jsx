@@ -13,6 +13,8 @@ const Header=()=>{
     const scrollToID= 'about'
     const scrollCourses= 'courses'
     const scrollskill= 'skill'
+    const scrollExperience= 'skill'
+    const scrollEducation= 'education'
 
     const handleClickNav =()=>{
         document.getElementById(scrollToID).scrollIntoView({behavior:
@@ -26,6 +28,14 @@ const Header=()=>{
         document.getElementById(scrollskill).scrollIntoView({behavior:
         "smooth"})
     }
+    const handleClickExperience =()=>{
+      document.getElementById(scrollExperience).scrollIntoView({behavior:
+      "smooth"})
+  }
+  const handleClickEducation =()=>{
+    document.getElementById(scrollEducation).scrollIntoView({behavior:
+    "smooth"})
+}
     return(
             <>
                {['lg'].map((expand) => (
@@ -48,7 +58,8 @@ const Header=()=>{
                   <Nav.Link onClick={handleClickNav}>About</Nav.Link>
                   <Nav.Link onClick={handleClickNavCurses}>Courses</Nav.Link>
                   <Nav.Link onClick={handleClickSkill}>Skills</Nav.Link>
-                  <Nav.Link href="#action2">Experience</Nav.Link>
+                  <Nav.Link onClick={handleClickExperience}>Experience</Nav.Link>
+                  <Nav.Link onClick={handleClickEducation}>Education</Nav.Link>
                 </Nav>
                
               </Offcanvas.Body>

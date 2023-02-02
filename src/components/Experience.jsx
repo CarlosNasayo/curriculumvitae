@@ -7,7 +7,7 @@ const Experience=()=>{
           <div className="h4 text-center mb-4 title">Work Experience</div>
           <div className="card">
             <div className="row m-0">
-              <div className="col-md-3 bg-primary prueba" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+              <div className="align-items-sm-center bg-primary col-md-3 d-flex prueba" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div className="card-body cc-experience-header">
                   <p>April 2022 - Present</p>
                   <div className="h5">CIAT</div>
@@ -23,7 +23,7 @@ const Experience=()=>{
           </div>
           <div className="card">
             <div className="row m-0">
-              <div className="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+              <div className="align-items-sm-center bg-primary col-md-3 d-flex" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div className="card-body cc-experience-header">
                   <p>November 2021 - February 2022</p>
                   <div className="h5">Unicomfacauca</div>
