@@ -5,6 +5,8 @@ import Imagecontainer from './components/Imagecontainer';
 import About from './components/About';
 import Skills from './components/Skills';
 import Courses from './components/Courses';
+
+import Experience from './components/Experience';
 function App() {
   return (
     
@@ -14,6 +16,8 @@ function App() {
       <About/>
       <Courses/>
       <Skills/>
+      <Experience/>
+
       
     </div>
     

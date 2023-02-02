@@ -8,11 +8,8 @@ const About=()=>{
               <div class="col-lg-6 col-md-12">
                 <div class="card-body">
                   <div class="h4 mt-0 title">About</div>
-                  <p>¡Hi! I'm a Tech lover, interested in sales, cloud computing, and networking.</p>
-                  <p>Telecommunications Engineer with experience in sales of IT services, help desk, DaaS, and support
-                    Citrix ADC platform. I have knowledge in telematics, web development, project management, and
-                    machine learning. Passionate about technology, in a constant search for professional and academic
-                    challenges.
+                  <p>I'm web fulsstack developer.</p>
+                  <p>System engineer, with an emphasis on software development, databases and machine learning, I have skills to work both in a team and individually, I am characterized by being self-taught and constantly learning.
                   </p>
                   <p>
                     +20 Courses at <a class="credit" href="https://platzi.com/p/remlogiraldo/"

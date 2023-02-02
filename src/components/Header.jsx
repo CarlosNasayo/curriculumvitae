@@ -12,6 +12,7 @@ const Header=()=>{
     
     const scrollToID= 'about'
     const scrollCourses= 'courses'
+    const scrollskill= 'skill'
 
     const handleClickNav =()=>{
         document.getElementById(scrollToID).scrollIntoView({behavior:
@@ -19,6 +20,10 @@ const Header=()=>{
     }
     const handleClickNavCurses =()=>{
         document.getElementById(scrollCourses).scrollIntoView({behavior:
+        "smooth"})
+    }
+    const handleClickSkill =()=>{
+        document.getElementById(scrollskill).scrollIntoView({behavior:
         "smooth"})
     }
     return(
@@ -42,7 +47,7 @@ const Header=()=>{
                 <Nav className="justify-content-end flex-grow-1 pe-3">
                   <Nav.Link onClick={handleClickNav}>About</Nav.Link>
                   <Nav.Link onClick={handleClickNavCurses}>Courses</Nav.Link>
-                  <Nav.Link href="#action2">Skills</Nav.Link>
+                  <Nav.Link onClick={handleClickSkill}>Skills</Nav.Link>
                   <Nav.Link href="#action2">Experience</Nav.Link>
                 </Nav>
                
