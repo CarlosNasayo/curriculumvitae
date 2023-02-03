@@ -39,14 +39,10 @@ const Header=()=>{
     "smooth"})
 }
 const onButtonClick = () => {
-  
-  
-  
   let doc= new jsPDF ('portrait','px','a4',false)
   doc.addImage('https://i.ibb.co/V345Qwm/Carlos-Nasay.png','PNG',0,0,417,653)
   doc.save('CarlosNasayo.pdf')
  
-
 }
     return(
             <>

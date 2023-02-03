@@ -9,10 +9,10 @@ export default function Footer() {
      
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2023:
-        <a className='text-reset fw-bold' href='https://mdbootstrap.com/'>
-          Carlos Mario Nasayó Valverde
-        </a>
+      © Updated February 2023
+        <p className='text-reset fw-bold' >
+        Carlos Mario Nasayó Valverde
+        </p>
       </div>
     </MDBFooter>
   );
