@@ -17,7 +17,9 @@ const Education=()=>{
                 <div className="card-body">
                   <div className="h5">System Engineer</div>
                   <p className="category">Corporación Universitaria Comfacauca (Unicomfacauca)</p>
-                  <p>Conducting a comprehensive analysis of the requirements, design, and development of advanced climatic systems for the International Center for Tropical Agriculture and its associates, creating both frontend and backend web applications, and providing support for the Climate services of the Alliance.</p>
+                  <p>
+                  The systems engineer at Unicomfacauca is skilled in problem-solving, has logical thinking abilities, and is capable of developing various types of applications, managing databases, and performing software analysis and architecture.
+                  </p>
                 </div>
               </div>
             </div>
