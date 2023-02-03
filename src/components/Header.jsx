@@ -6,6 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../styles.css/header.css'
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import jsPDF from 'jspdf'
+import { useState } from 'react';
 
 
 const Header=()=>{
@@ -36,6 +38,16 @@ const Header=()=>{
     document.getElementById(scrollEducation).scrollIntoView({behavior:
     "smooth"})
 }
+const onButtonClick = () => {
+  
+  
+  
+  let doc= new jsPDF ('portrait','px','a4',false)
+  doc.addImage('https://i.ibb.co/V345Qwm/Carlos-Nasay.png','PNG',0,0,417,653)
+  doc.save('CarlosNasayo.pdf')
+ 
+
+}
     return(
             <>
                {['lg'].map((expand) => (
@@ -60,6 +72,7 @@ const Header=()=>{
                   <Nav.Link onClick={handleClickSkill}>Skills</Nav.Link>
                   <Nav.Link onClick={handleClickExperience}>Experience</Nav.Link>
                   <Nav.Link onClick={handleClickEducation}>Education</Nav.Link>
+                  <Nav.Link onClick={onButtonClick}>Download Cv</Nav.Link>
                 </Nav>
                
               </Offcanvas.Body>

@@ -8,8 +8,11 @@ import Courses from './components/Courses';
 import Experience from './components/Experience';
 
 import Education from './components/Education';
+import Footer from './components/Footer';
 function App() {
+  
   return (
+    
     
     <div className="App">
       <Navbar/>
@@ -19,8 +22,7 @@ function App() {
       <Skills/>
       <Experience/>
       <Education/>
-
-      
+      <Footer/>
     </div>
     
   );
