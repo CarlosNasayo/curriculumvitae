@@ -9,7 +9,7 @@ const Education=()=>{
             <div className="row m-0">
               <div className="align-items-sm-center bg-primary col-md-3 d-flex" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div className="card-body cc-experience-header">
-                  <p>2018 - 2022</p>
+                  <p className='text-time'>2018 - 2022</p>
                   <div className="h5">Bachelor's Degree</div>
                 </div>
               </div>

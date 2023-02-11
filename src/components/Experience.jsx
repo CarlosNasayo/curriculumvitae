@@ -9,7 +9,7 @@ const Experience=()=>{
             <div className="row m-0">
               <div className="align-items-sm-center bg-primary col-md-3 d-flex prueba" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div className="card-body cc-experience-header">
-                  <p>April 2022 - Present</p>
+                  <p className='text-time'>April 2022 - Present</p>
                   <div className="h5">CIAT</div>
                 </div>
               </div>
@@ -25,14 +25,14 @@ const Experience=()=>{
             <div className="row m-0">
               <div className="align-items-sm-center bg-primary col-md-3 d-flex" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
                 <div className="card-body cc-experience-header">
-                  <p>November 2021 - February 2022</p>
+                  <p className='text-time'>November 2021 - February 2022</p>
                   <div className="h5">Unicomfacauca</div>
                 </div>
               </div>
               <div className="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
                 <div className="card-body">
                   <div className="h5">Software Tester </div>
-                  <p>I conducted and documented frontend and backend tests for a coffee sales and export software, for a Colinnova (Colombia Innova) project.</p>
+                  <p >I conducted and documented frontend and backend tests for a coffee sales and export software, for a Colinnova (Colombia Innova) project.</p>
                 </div>
               </div>
             </div>

@@ -6,7 +6,7 @@ const Imagecontainer=()=>{
          
         <div className='containerr' id='imagees'>
             
-            <img className='photo' src={require('../assets/images/profile.jpeg')} alt="" />
+            <img className='photo' src={require('../assets/images/profile2.jpeg')} alt="" />
             <h2>Carlos Nasayó</h2>
             <h5>SYSTEM ENGINEER</h5>
             <h5>DEVELOPER</h5>
