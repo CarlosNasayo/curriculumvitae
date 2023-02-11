@@ -6,9 +6,11 @@
 .containerr{
     height: 500px;
     background-image: url('../assets//images/back3.jpg');
-    display: grid;
-    place-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-size: cover;
+    flex-direction: column;
     opacity: 2;
     transform: translate3d(0px, 0px, 0px);
 }
