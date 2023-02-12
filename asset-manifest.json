@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/curriculumvitae/static/css/main.630fcfde.css",
+    "main.css": "/curriculumvitae/static/css/main.aa01e8bb.css",
     "main.js": "/curriculumvitae/static/js/main.fa653db1.js",
     "static/js/498.8e284ecf.chunk.js": "/curriculumvitae/static/js/498.8e284ecf.chunk.js",
     "static/js/703.9a173f53.chunk.js": "/curriculumvitae/static/js/703.9a173f53.chunk.js",
@@ -16,7 +16,7 @@
     "static/media/profile2.jpeg": "/curriculumvitae/static/media/profile2.31fa0ffc293bf64eedaa.jpeg",
     "static/media/logo.svg": "/curriculumvitae/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/curriculumvitae/index.html",
-    "main.630fcfde.css.map": "/curriculumvitae/static/css/main.630fcfde.css.map",
+    "main.aa01e8bb.css.map": "/curriculumvitae/static/css/main.aa01e8bb.css.map",
     "main.fa653db1.js.map": "/curriculumvitae/static/js/main.fa653db1.js.map",
     "498.8e284ecf.chunk.js.map": "/curriculumvitae/static/js/498.8e284ecf.chunk.js.map",
     "703.9a173f53.chunk.js.map": "/curriculumvitae/static/js/703.9a173f53.chunk.js.map",
@@ -24,7 +24,7 @@
     "787.8f2e41e5.chunk.js.map": "/curriculumvitae/static/js/787.8f2e41e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.630fcfde.css",
+    "static/css/main.aa01e8bb.css",
     "static/js/main.fa653db1.js"
   ]
 }
